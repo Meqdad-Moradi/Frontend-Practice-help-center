@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <script src="./main.js" defer></script>
+      <link rel="stylesheet" href="./assets/styles/style.css" />
+      <title>Frontend Practice | Project</title>
+   </head>
+   <body>
+      <header class="header" id="header">
+         <div class="container">
+            <!-- navigation -->
+            <div class="logo">
+               <a href="./index.html">Help Center</a>
+            </div>
+            <nav class="header-nav" id="header-nav">
+               <ul class="navlist">
+                  <li>
+                     <a class="submit-request" href="#">submit a request</a>
+                  </li>
+                  <li>
+                     <a class="sign-in" href="#"
+                        >sign in
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i
+                     ></a>
+                  </li>
+               </ul>
+            </nav>
+
+            <button
+               class="toggle-responsive"
+               aria-label="toggle-responsive"
+               id="toggle-nav"
+            >
+               <span></span>
+               <span></span>
+               <span></span>
+            </button>
+         </div>
+      </header>
+
+      <!-- hero -->
+      <section class="showcase sh-full-bleed" aria-label="hero-section">
+         <div class="content">
+            <h1 class="title">How can we help?</h1>
+            <div class="search-input-cover">
+               <input
+                  type="text"
+                  name="search"
+                  placeholder="search"
+                  id="search-input"
+               />
+               <span class="search-arrow" id="search-btn"
+                  ><i class="fa-solid fa-arrow-right"></i
+               ></span>
+            </div>
+         </div>
+      </section>
+
+      <!-- main page -->
+      <main class="main">
+         <div class="container">
+            <article class="card">
+               <div class="icon-box">
+                  <span><i class="fa-solid fa-code-compare"></i></span>
+               </div>
+               <div class="details">
+                  <h1>Using Abstract</h1>
+                  <p>
+                     Abstract lets you manage, version, and document your
+                     designs in one place.
+                  </p>
+                  <a href="#" class="btn"
+                     >Learn More &nbsp;<i
+                        class="fa-solid fa-arrow-right-long"
+                     ></i
+                  ></a>
+               </div>
+            </article>
+
+            <article class="card">
+               <div class="icon-box">
+                  <span><i class="fa-solid fa-puzzle-piece"></i></span>
+               </div>
+               <div class="details">
+                  <h1>Manage organizations, teams, and projects</h1>
+                  <p>
+                     Use Abstract organizations, teams, and projects to organize
+                     your people and your work.
+                  </p>
+                  <a href="#" class="btn"
+                     >Learn More &nbsp;<i
+                        class="fa-solid fa-arrow-right-long"
+                     ></i
+                  ></a>
+               </div>
+            </article>
+
+            <article class="card">
+               <div class="icon-box">
+                  <span><i class="fa-solid fa-key"></i></span>
+               </div>
+               <div class="details">
+                  <h1>Authenticate to Abstract</h1>
+                  <p>
+                     Set up and configure SSO, SCIM, and Just-in-Time
+                     provisioning.
+                  </p>
+                  <a href="#" class="btn"
+                     >Learn More &nbsp;<i
+                        class="fa-solid fa-arrow-right-long"
+                     ></i
+                  ></a>
+               </div>
+            </article>
+
+            <article class="card">
+               <div class="icon-box">
+                  <span><i class="fa-solid fa-users"></i></span>
+               </div>
+               <div class="details">
+                  <h1>Manage your account</h1>
+                  <p>
+                     Configure your account settings, such as your email,
+                     profile details, and password.
+                  </p>
+                  <a href="#" class="btn"
+                     >Learn More &nbsp;<i
+                        class="fa-solid fa-arrow-right-long"
+                     ></i
+                  ></a>
+               </div>
+            </article>
+
+            <article class="card">
+               <div class="icon-box">
+                  <span><i class="fa-solid fa-sack-dollar"></i></span>
+               </div>
+               <div class="details">
+                  <h1>Manage billing</h1>
+                  <p>Change subscriptions and payment details.</p>
+                  <a href="#" class="btn"
+                     >Learn More &nbsp;<i
+                        class="fa-solid fa-arrow-right-long"
+                     ></i
+                  ></a>
+               </div>
+            </article>
+
+            <article class="card">
+               <div class="icon-box">
+                  <span><i class="fa-solid fa-comment-dots"></i></span>
+               </div>
+               <div class="details">
+                  <h1>Abstract support</h1>
+                  <p>Get in touch with a human.</p>
+                  <a href="#" class="btn"
+                     >Learn More &nbsp;<i
+                        class="fa-solid fa-arrow-right-long"
+                     ></i
+                  ></a>
+               </div>
+            </article>
+         </div>
+      </main>
+
+      <!-- footer section -->
+      <footer class="footer">
+         <div class="container">
+            <nav class="footer-nav abstract">
+               <ul>
+                  <li><h3>Abstract</h3></li>
+                  <li><a href="#">start trial</a></li>
+                  <li><a href="#">pricing</a></li>
+                  <li><a href="#">download</a></li>
+               </ul>
+            </nav>
+
+            <nav class="footer-nav resources">
+               <ul>
+                  <li><h3>Resources</h3></li>
+                  <li><a href="#">start trial</a></li>
+                  <li><a href="#">pricing</a></li>
+                  <li><a href="#">download</a></li>
+               </ul>
+            </nav>
+
+            <nav class="footer-nav company">
+               <ul>
+                  <li><h3>Community</h3></li>
+                  <li><a href="#">start trial</a></li>
+                  <li><a href="#">pricing</a></li>
+                  <li><a href="#">download</a></li>
+               </ul>
+            </nav>
+
+            <nav class="footer-nav">
+               <ul>
+                  <li><h3>Compnay</h3></li>
+                  <li><a href="#">start trial</a></li>
+                  <li><a href="#">pricing</a></li>
+                  <li><a href="#">download</a></li>
+               </ul>
+            </nav>
+
+            <p class="copyright">
+               copyright &copy; 2022 <a href="./index.html">help center</a>, All
+               rights reserved
+            </p>
+         </div>
+      </footer>
+   </body>
+</html>
