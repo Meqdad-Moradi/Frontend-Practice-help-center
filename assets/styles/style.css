@@ -237,7 +237,7 @@ button {
 }
 .main .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   justify-content: space-between;
   align-items: start;
   gap: var(--gap);
@@ -289,13 +289,18 @@ button {
   color: var(--purple);
 }
 
+@media (min-width: 50em) {
+  .main .container {
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+  }
+}
 .footer {
   background-color: var(--dark);
   padding-block: 4em;
 }
 .footer .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
   justify-content: space-between;
   align-items: center;
   gap: var(--gap-inside);
@@ -315,4 +320,10 @@ button {
 }
 .footer .copyright a {
   color: var(--blue);
+}
+
+@media (min-width: 50em) {
+  .footer .container {
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  }
 }/*# sourceMappingURL=style.css.map */

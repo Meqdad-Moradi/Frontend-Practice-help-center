@@ -261,7 +261,7 @@ button {
 
    .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
       justify-content: space-between;
       align-items: start;
       gap: var(--gap);
@@ -327,6 +327,14 @@ button {
    }
 }
 
+@media (min-width: 50em) {
+   .main {
+      .container {
+         grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+      }
+   }
+}
+
 // footer section
 .footer {
    background-color: var(--dark);
@@ -334,7 +342,7 @@ button {
 
    .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
       justify-content: space-between;
       align-items: center;
       gap: var(--gap-inside);
@@ -357,8 +365,16 @@ button {
       margin-top: 2em;
       text-align: center;
 
-      a{
-        color: var(--blue);
+      a {
+         color: var(--blue);
+      }
+   }
+}
+
+@media (min-width: 50em) {
+   .footer {
+      .container {
+         grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
       }
    }
 }
